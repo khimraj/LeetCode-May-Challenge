@@ -1,3 +1,8 @@
+/* Approach - Use Hash map */
+
+// Time Complexity - O(mn), where m = length 0f ransomNote and n = length of magazine
+// Space Complexity - O(26) ≈ O(1)
+
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {

@@ -1,3 +1,8 @@
+/* Approach - Use Hash map */
+
+// Time Complexity - O(mn), where m = length 0f J and n = length of S
+// Space Complexity - O(m)
+
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
