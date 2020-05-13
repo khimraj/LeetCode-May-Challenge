@@ -25,7 +25,7 @@ You may assume that both strings contain only lowercase letters. */
 
 /* Approach - Use Hash map */
 
-// Time Complexity - O(mn), where m = length 0f ransomNote and n = length of magazine
+// Time Complexity - O(max(m,n)), where m = length 0f ransomNote and n = length of magazine
 // Space Complexity - O(26) ≈ O(1)
 
 class Solution {

@@ -18,7 +18,7 @@ The characters in J are distinct. */
 
 /* Approach - Use Hash map */
 
-// Time Complexity - O(mn), where m = length 0f J and n = length of S
+// Time Complexity - O(max(m,n)), where m = length 0f J and n = length of S
 // Space Complexity - O(m)
 
 class Solution {
