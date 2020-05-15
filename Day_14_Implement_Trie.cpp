@@ -43,7 +43,7 @@ public:
     bool search(string word) {
         Node *ptr = head;
         for (char c : word) {
-            if( ptr->next[c - 'a'] == NULL){
+            if( ptr->next[c - 'a'] == NULL) {
                 return false;
             }
             ptr = ptr->next[c - 'a'];
@@ -55,7 +55,7 @@ public:
     bool startsWith(string prefix) {
         Node *ptr = head;
         for (char c : prefix) {
-            if( ptr->next[c - 'a'] == NULL){
+            if( ptr->next[c - 'a'] == NULL) {
                 return false;
             }
             ptr = ptr->next[c - 'a'];
