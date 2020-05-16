@@ -49,7 +49,7 @@ Each node has a unique integer value from 1 to 100. */
  * };
  */
 class Solution {
-public:
+private:
     void dfs(TreeNode *root, int target, int &parent, int &height, int currHeight){
         if(root){
             dfs(root->left, target, parent, height, currHeight + 1);
@@ -64,6 +64,7 @@ public:
             dfs(root->right, target, parent, height, currHeight + 1);
         }
     }
+public:
     bool isCousins(TreeNode* root, int x, int y) {
         if(!root || root->val==x || root->val==y) {
             return false;
