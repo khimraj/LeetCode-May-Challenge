@@ -44,7 +44,7 @@ public:
                 break;
             }
         }
-        if(equal){
+        if (equal) {
             indicesArray.push_back(0);
         }
         for ( int i = 1; i <= s.size() - p.size(); i++) {
@@ -57,7 +57,7 @@ public:
                     break;
                 }
             }
-            if(equal){
+            if (equal) {
                 indicesArray.push_back(i);
             }
         }
