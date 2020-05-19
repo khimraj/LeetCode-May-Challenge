@@ -47,11 +47,11 @@ public:
     
     int next(int price) {
         int span = 1;
-        while( priceSpan.size() && priceSpan.top().first <= price){
+        while ( priceSpan.size() && priceSpan.top().first <= price) {
             span += priceSpan.top().second;
             priceSpan.pop();
         }
-        priceSpan.push(make_pair(price,span));
+        priceSpan.push(make_pair(price, span));
         return span;
     }
 };
