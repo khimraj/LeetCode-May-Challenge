@@ -34,7 +34,7 @@ The total time limit for this problem has been reduced by 75% for C++, and 50% f
 
 /* Approach - use stack */
 
-// Time Complexity - O(n), where n is size of priceSpan
+// Time Complexity - O(n), where n is no of previous next query
 // Space Complexity - O(n)
 
 class StockSpanner {
